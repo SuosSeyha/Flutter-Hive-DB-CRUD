@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:get/get.dart';
-import 'package:hive_db_flutter/controller/homepage_controller.dart';
-import 'package:hive_db_flutter/model/person.dart';
+import 'package:hive_db_flutter/controller/add_person_controller.dart';
+import 'package:hive_db_flutter/model/person_model.dart';
 import 'package:hive_db_flutter/widget/person_detail.dart';
 // ignore: must_be_immutable
 class PersonPage extends StatelessWidget {

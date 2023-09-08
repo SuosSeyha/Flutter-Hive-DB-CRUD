@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
-import 'package:hive_db_flutter/model/person.dart';
+import 'package:hive_db_flutter/model/person_model.dart';
 class AddPersonController extends GetxController{
   late Box personBox;
   List<Map<dynamic,dynamic>> listPerson=[];
